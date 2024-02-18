@@ -1,0 +1,37 @@
+.dropdownBtn {
+     width: 270px;
+     padding: 12px 0%  12px 10px;
+     align-items: center;
+     border-radius: 5px;
+     border: 1px solid rgba(0, 0, 0, 0.18);
+     background: #fff;
+     color: rgba(0, 0, 0, 1);
+     font-family: Montserrat;
+     font-size: 13px;
+     font-weight: 550;
+     line-height: normal;
+     letter-spacing: 0.51px;
+}
+
+.dropdownContent {
+     position: absolute;
+     border-radius: 5px;
+     border: 1px solid rgba(0, 0, 0, 0.18);
+     top: 115%;
+     padding: 15px;
+     background: #fff;
+     font-weight: 500;
+     color: #333;
+}
+
+.dropdownContent .dropdownItem {
+     border-radius: 5px;
+     padding: 10px;
+     cursor: pointer;
+     transition: all 0.2s;
+}
+
+
+.dropdownContent .dropdownItem:hover {
+     background: rgba(121, 106, 205, 0.18);
+}

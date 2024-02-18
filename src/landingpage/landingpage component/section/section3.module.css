@@ -1,0 +1,82 @@
+.sec3 {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 100%;
+     gap: 5em;
+}
+
+.sec3 h4 {
+     color: #796ACD;
+     font-family: Montserrat;
+     font-size: 34px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+}
+
+.sec3 h4 span {
+     color: #796ACD;
+     font-family: Montserrat;
+     font-size: 34px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}
+
+.sec3 .skills {
+     width: 70%;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     gap: 2em;
+
+}
+
+.sec3 .skills>div {
+     padding: 25px 30px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border: 3px solid white;
+     border-radius: 5px;
+     background: rgba(121, 106, 205, 0.65);
+     width: fit-content;
+     gap: 1em;
+     cursor: pointer;
+     transition: all 0.2s;
+}
+
+.sec3 .skills>div:hover {
+     border: 3px solid rgba(121, 106, 205, 1);
+}
+
+.sec3 .skills>div h6 {
+     color: #FFF;
+     font-family: Montserrat;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+}
+
+
+.sec3 .skills>div>div {
+     display: flex;
+     justify-content: space-between;
+     gap: 2em;
+
+}
+
+.sec3 .skills>div>div p {
+     color: white;
+     padding: 0px;
+     margin: 0px;
+
+}
+
+
+.sec3 .skills>div>div img {
+     width: 13px;
+}

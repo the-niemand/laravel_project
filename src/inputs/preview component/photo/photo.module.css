@@ -1,0 +1,43 @@
+.photo {
+     position: relative;
+     width: 150px;
+     height: 150px;
+     flex-shrink: 0;
+     background-image: url("../../../imgs/Group\ 27.png");
+     background-size: cover;
+     background-position: center;
+     margin-bottom: 30px;
+     border-radius: 50%;
+}
+
+.add {
+     position: absolute;
+     bottom: 0px;
+     right: 0px;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     background-color: #796ACD;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     overflow: hidden;
+     z-index: 1;
+}
+
+.add img {
+     width: 60%;
+     height: auto;
+     cursor: pointer;
+}
+
+.add input {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+     cursor: pointer;
+}

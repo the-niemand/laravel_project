@@ -1,0 +1,110 @@
+.sec4 {
+     background-color: #796ACD;
+     width: 100%;
+     padding-top: 100px;
+     padding-bottom: 100px;
+     padding-left: 150px;
+     display: flex;
+     align-items: center;
+     justify-content: flex-start;
+     background: url('../../../imgs/Frame\ 162.png') no-repeat;
+     background-size: 100% 100%;
+     position: relative;
+}
+
+
+.sec4 .blk1 {
+     display: flex;
+     flex-direction: column;
+     gap: 3em;
+     width: 40%;
+}
+
+.sec4 .blk1 h4 {
+     color: #FFF;
+     font-family: Montserrat;
+     font-size: 42px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     margin: 0px;
+     padding: 0px;
+}
+
+.sec4 .blk1 p {
+     color: #FFF;
+     font-family: Montserrat;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     margin: 0px;
+     padding: 0px;
+     letter-spacing: 0.4px;
+}
+
+
+
+.sec4 .blk1 .features_blocks {
+     display: flex;
+     flex-direction: column;
+     gap: 1.5em;
+
+}
+
+.sec4 .blk1 .features_blocks>.f_blk {
+     border-radius: 7px;
+     background: #FFF;
+     display: flex;
+     align-items: flex-end;
+     justify-content: space-between;
+     width: 325px;
+     padding: 20px;
+     transition: all 0.3s;
+     cursor: pointer;
+}
+
+.sec4 .blk1 .features_blocks>.f_blk:hover {
+     width: 380px;
+     background-color: #5a4e9a;
+     color: white;
+     fill: white !important;
+}
+
+
+.sec4 .blk1 .features_blocks>.f_blk>p {
+     color: #000;
+     font-family: Montserrat;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     margin: 0px;
+     padding: 0px;
+     width: 300px;
+}
+
+
+.features_blocks>.f_blk>svg {
+     width: 30px;
+}
+
+.features_blocks>.f_blk>svg path {
+     fill: black !important;
+}
+
+
+
+.sec4 .blk1 .features_blocks>.f_blk:hover p {
+     color: white;
+     width: 300px;
+}
+
+.features_blocks>.f_blk:hover svg path {
+     fill: white !important;
+}
+
+.blk2 img{
+     position: absolute;
+     width: 800px;
+     bottom: -26px;
+}

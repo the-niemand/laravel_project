@@ -1,0 +1,115 @@
+.sec5 {
+     padding: 0em 5em;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 5em;
+}
+
+.sec5 h4 {
+     color: #796ACD;
+     font-family: Montserrat;
+     font-size: 42px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     margin: 0px;
+     padding: 0px;
+}
+
+
+.sec5 p {
+     color: #796ACD;
+     font-family: Montserrat;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     margin: 0px;
+     padding: 0px;
+     letter-spacing: 0.4px;
+}
+
+.sec5 .blk1 {
+     display: flex;
+     flex-direction: column;
+     gap: 2em;
+}
+
+
+.findworktextbox {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 24px;
+}
+
+.findworkbox {
+     position: relative;
+}
+
+.findworkbox img {
+     width: 80%;
+}
+
+.findworkbox .fone {
+     font-size: 10px;
+     font-weight: 600;
+     color: white;
+     padding: 0 30px;
+     position: absolute;
+     top: 45%;
+     left: 40%;
+     transform: translate(-50%, -50%) !important;
+     text-align: center;
+}
+
+.findworkbox .sone {
+     font-size: 10px;
+     font-weight: 600;
+     color: white;
+     padding: 0 30px;
+     position: absolute;
+     top: 41%;
+     left: 42%;
+     transform: translate(-50%, -50%) !important;
+     text-align: center;
+}
+
+.findworkbox .Tone {
+     font-size: 10px;
+     font-weight: 600;
+     color: white;
+     padding: 0 30px;
+     position: absolute;
+     top: 45%;
+     left: 40%;
+     transform: translate(-50%, -50%) !important;
+     text-align: center;
+}
+
+button {
+     display: flex;
+     width: 214px;
+     height: 42px;
+     padding: 0px 23px 0px 23px;
+     align-items: center;
+     flex-shrink: 0;
+     border-radius: 9px;
+     background: #796ACD;
+     border: 2px solid white;
+     color: #FFF;
+     text-align: center;
+     font-family: Montserrat;
+     font-size: 12px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 12px;
+     /* 100% */
+     letter-spacing: 0.24px;
+     transition: all 0.3s;
+}
+button:hover {
+     border-color: #796ACD;
+     color: #796ACD;
+     background: white;
+     cursor: pointer;
+}

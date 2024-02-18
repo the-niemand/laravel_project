@@ -1,0 +1,332 @@
+* {
+     color: #000;
+     font-family: Montserrat;
+     font-style: normal;
+     line-height: normal;
+     margin: 0px;
+     padding: 0px;
+}
+
+.body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     
+}
+
+.bodyforload {
+     position: absolute;
+     top: 45%;
+     left: 47%;
+}
+
+
+.editButton {
+     width: 100%;
+     display: flex;
+     justify-content: flex-start;
+}
+
+.editButton button {
+     background-color: #796ACD;
+     padding: 1em 2em;
+     border: 2px solid rgba(255, 255, 255, 0);
+     border-radius: 3px;
+     color: #FFF;
+     text-align: center;
+     font-family: Montserrat;
+     font-size: 16x;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 12px;
+     letter-spacing: 0.38px;
+     width: fit-content;
+     transition: all 0.3s;
+}
+
+.editButton button:hover {
+     background-color: white;
+     border-color: #796ACD;
+     color: #796ACD;
+
+}
+
+
+.section {
+     display: flex;
+     gap: 38px;
+     margin-top: 70px;
+}
+
+.section .workData {
+     width: 70%;
+     flex-shrink: 0;
+     border-radius: 3px;
+     display: flex;
+     flex-direction: column;
+     gap: 1.5em;
+}
+
+
+/* ################################################################################################################# */
+
+.profileData {
+     display: flex;
+     flex-direction: column;
+     gap: 45px;
+     align-items: center;
+     border-radius: 4px;
+     margin-left: 4em;
+     width: 18%;
+}
+
+.profileData .firstData {
+     text-align: center;
+     width: 100%;
+     border-radius: 3px;
+}
+
+.profileData .firstData img {
+     display: block;
+     margin: auto;
+     width: 100%;
+     border-radius: 3px;
+}
+
+
+
+.profileData .firstData p {
+     color: #FFF;
+     font-family: Montserrat;
+     font-size: 12.04px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     letter-spacing: 0.12px;
+}
+
+
+.secondData {
+     border-radius: 4px;
+     background: rgba(121, 106, 205, 0.90);
+     width: 100%;
+
+}
+
+.secondData .data {
+     display: flex;
+     flex-direction: column;
+     gap: 2em;
+     padding: 1.2em;
+}
+
+.secondData .data>div {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     position: relative;
+}
+
+.secondData .data>div>div {
+     display: flex;
+}
+
+
+.secondData .data .key {
+     color: #FFF;
+     font-family: Montserrat;
+     font-size: 1em;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     letter-spacing: 0.15px;
+     margin: 0px;
+}
+
+.secondData .data .value {
+     color: #FFF;
+     font-family: Montserrat;
+     font-size: 1em;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     letter-spacing: 0.13px;
+     margin: 0px;
+}
+
+.roleBio,
+.skills,
+.experience,
+.portfolio {
+     display: flex;
+     flex-direction: column;
+     padding: 1em 2em 2em 2em;
+     border-radius: 4px;
+     background: rgba(121, 106, 205, 0.90);
+}
+
+.rolePaid {
+     display: flex;
+     justify-content: space-between;
+}
+
+.roleBio>p {
+     color: #FFF;
+     font-family: Montserrat;
+     font-size: 12.04px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     letter-spacing: 0.482px;
+}
+
+.role,
+.paid {
+     color: #FFF;
+     font-family: Montserrat;
+     font-size: 14.04px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     letter-spacing: 0.642px;
+}
+
+.skills>p,
+.experience>p,
+.portfolio>p {
+     color: #FFF;
+     font-family: Montserrat;
+     font-size: 16.04px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     letter-spacing: 0.642px;
+     margin: 0.5em 0em 2em 0em;
+}
+
+
+.skillsData {
+     display: flex;
+     align-items: center;
+     align-content: flex-start;
+     gap: 1em;
+     flex-wrap: wrap;
+}
+
+.skillsData .skillsElm {
+     background-color: white;
+     border-radius: 3px;
+     padding: 0.7em 2em;
+     color: #796ACD;
+     font-family: Montserrat;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 550;
+     line-height: normal;
+     letter-spacing: 0.241px;
+     display: flex;
+     align-items: center;
+     gap: 1em;
+}
+
+.skillsElm img {
+     width: 12px;
+     opacity: 0.6;
+     cursor: pointer;
+}
+
+.skillsElm img:hover {
+     opacity: 1;
+}
+
+
+.experience .expData {
+     color: #FFF;
+     font-family: Montserrat;
+     font-size: 12.04px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     letter-spacing: 0.482px;
+}
+
+/* 
+portfolio
+
+portfolioData
+
+port_elm1
+
+image => img
+
+description
+ */
+
+.portfolioData {
+     display: flex;
+     align-items: center;
+     align-content: flex-start;
+     gap: 2em;
+     flex-wrap: wrap;
+}
+
+.addingPortfolio {
+     background-color: white;
+     border-radius: 5px;
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.portfolioData>div {
+     display: flex;
+     flex-direction: column;
+     gap: 0.3em;
+     width: 15em;
+     height: 15em;
+     position: relative;
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+     overflow: hidden;
+}
+
+.bio p {
+     color: white;
+     font-weight: 500;
+}
+
+.portfolioData>div .description {
+     background-color: white;
+     color: #796ACD;
+     font-family: Montserrat;
+     font-size: 12.04px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     letter-spacing: 0.282px;
+     text-align: center;
+     padding: 1em 2em;
+     border-bottom-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+}
+
+.portfolioData>div .image {
+     width: 100%;
+     height: 100%;
+}
+
+.portfolioData>div .image img {
+     width: 100%;
+     height: 100%;
+     object-fit: fill;
+}
+
+.rolePaid>div,
+.bio,
+.experience>div {
+     position: relative;
+}

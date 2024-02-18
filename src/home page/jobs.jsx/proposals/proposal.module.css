@@ -1,0 +1,150 @@
+* {
+     color: #000;
+     font-family: Montserrat;
+     font-style: normal;
+     line-height: normal;
+     margin: 0px;
+     padding: 0px;
+}
+
+.body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.bodyforload {
+     position: absolute;
+     top: 45%;
+     left: 47%;
+}
+
+
+.this_section {
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+     gap: 2em;
+     padding: 5em;
+}
+
+
+.this_section .job_posted1 {
+     border-radius: 3px;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+}
+
+
+.many_proposals {
+     width: 15%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     gap: 0.3em;
+     cursor: pointer;
+     align-items: center;
+     transition: all 0.3s;
+}
+
+.many_proposals_info {
+     width: 100%;
+     height: 100px;
+     display: flex;
+     flex-direction: row;
+
+}
+
+.many_proposals img {
+     width: 30px;
+     transition: all 0.3s;
+}
+
+
+.many_proposals:hover img {
+     width: 40px;
+}
+
+.many_proposals p {
+     color: #FFF;
+     margin: 0;
+     font-family: Montserrat;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     letter-spacing: 0.3px;
+
+}
+
+
+
+.this_section .job_posted1 .posted_job {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 1em;
+     justify-content: center;
+     width: 85%;
+     cursor: pointer;
+     transition: all 0.3s;
+     padding-left: 1.5em;
+}
+
+.this_section .job_posted1 .posted_job:hover {
+     background-color: #796acd2d;
+}
+
+.posted_job .jobTitle {
+     margin: 0px;
+     color: white;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 550;
+}
+
+.date_location {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 8em;
+}
+
+.publishedDate,
+.country {
+     color: white;
+     margin: 0px;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 550;
+}
+
+
+.date_location>div {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 10px;
+}
+
+.date_location>div img {
+     width: 15px;
+}
+
+
+.this_section .job_posted1 .second_info p {
+     color: white;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 550;
+}
+
+.this_section .job_posted1 .second_info{
+     display: flex;
+     flex-direction: column;
+     gap: 1em;
+     margin: 3em;
+}

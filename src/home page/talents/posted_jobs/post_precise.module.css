@@ -1,0 +1,171 @@
+.this_section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 5%;
+     gap: 2em;
+}
+
+.this_section .jobcontainer {
+     border: 2px solid #796ACD;
+     border-style: dashed;
+     border-radius: 5px;
+     width: 60%;
+     padding: 3em;
+}
+
+.this_section .jobcontainer p {
+     color: #796ACD;
+     margin: 0px 0px 20px 0px;
+}
+
+
+.this_section .created_at {
+     font-family: Montserrat;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 16.915px;
+     letter-spacing: 0.562px;
+}
+
+.this_section .Title {
+     font-family: Montserrat;
+     font-size: 19px;
+     font-style: normal;
+     font-weight: 650;
+     line-height: 16.915px;
+     letter-spacing: 0.562px;
+}
+
+.this_section .Description {
+     font-family: Montserrat;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 16.915px;
+     letter-spacing: 0.6px;
+}
+
+.skills_needed {
+     margin: 0px 0px 20px 0px;
+     display: flex;
+     gap: 1em;
+}
+
+.skills_needed .skillsElm {
+     background-color: #796ACD;
+     color: white;
+     border-radius: 3px;
+     padding: 5px 10px;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 16.915px;
+     letter-spacing: 0.6px;
+}
+
+
+.lbtn {
+     width: 100%;
+     display: flex;
+     justify-content: flex-end;
+}
+
+.lbtn .apply {
+     width: fit-content;
+     padding: 0.3em 2em;
+     background-color: red;
+     transition: all 0.3s;
+}
+
+.lbtn .apply:hover {
+     border-color: red;
+     background-color: white;
+     color: red;
+}
+
+.jobcontainer {
+     display: flex;
+     flex-direction: column;
+     gap: 2em;
+}
+
+.jobcontainer .talented {
+     background-color: #796acd3c;
+     padding: 1em;
+     display: flex;
+     flex-direction: column;
+     gap: 1em;
+     border-radius: 4px;
+     transition: all 0.3s;
+     cursor: pointer;
+}
+
+.jobcontainer .talented:hover {
+     background-color: #796acda1;
+}
+
+.jobcontainer .talented:hover p {
+     color: white;
+}
+.jobcontainer .talented:hover .proposal_text {
+     border: 2px solid #ffffff;
+}
+
+
+.jobcontainer .talented div,
+.jobcontainer .talented p {
+     margin: 0px;
+}
+
+
+.proposal_text {
+     border: 2px solid #796ACD;
+     border-style: dashed;
+     border-radius: 5px;
+     width: 80%;
+     padding: 1em;
+     display: flex;
+     flex-direction: column;
+     gap: 2em;
+}
+
+.proposal_text .buttons{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+     align-items: center;
+     gap: 1em;
+}
+
+
+.buttons .Accept,
+.buttons .Decline{
+     width: fit-content;
+     padding: 0.3em 2em;
+     transition: all 0.3s;
+}
+
+
+.buttons .Accept{
+     background-color: rgb(1, 163, 1);
+     border-color: rgb(1, 163, 1);
+}
+
+.buttons .Decline{
+     background-color: red;
+     border-color: red;
+}
+
+.Accept:hover{
+     color: rgb(1, 163, 1);
+     border-color: rgb(1, 163, 1);
+     background-color: white;
+}
+.Decline:hover{
+     color: red;
+     border-color: red;
+     background-color: white;
+}

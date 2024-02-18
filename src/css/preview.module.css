@@ -1,0 +1,237 @@
+.ctn5 {
+     padding: 50px 52px 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-start;
+     width: auto;
+}
+
+.ctn5 h1 {
+     color: #3F3F3F;
+     font-family: Montserrat;
+     font-size: 27px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     letter-spacing: 0.81px;
+     text-transform: uppercase;
+     margin-bottom: 95px;
+}
+
+.ctn5 .otherdata {
+     border-radius: 5px;
+     border: 1px solid rgba(0, 0, 0, 0.18);
+     padding: 40px 30px;
+     margin-top: 50px;
+     width: auto;
+}
+
+.skillsdata {
+     border-radius: 5px;
+     border: 1px solid rgba(0, 0, 0, 0.18);
+     padding: 20px 30px;
+     margin: 20px 0px 0px 20px;
+     display: flex;
+     align-items: center;
+     align-content: flex-start;
+     gap: 20px;
+     flex-wrap: wrap;
+     width: 75%
+}
+
+.skillsdata .sklelm {
+     height: 3rem;
+     line-height: 3rem;
+     margin-bottom: 0px;
+     background-color: #796ACD;
+     color: white;
+     padding: 0px 15px;
+     border-radius: 5px;
+
+}
+
+.skillsdata .sklelm img {
+     width: 10px;
+     height: 10px;
+     margin-left: 10px;
+     opacity: 0.5;
+     cursor: pointer;
+}
+
+.skillsdata .sklelm img:hover {
+     opacity: 1;
+}
+
+
+.otherdata .lab p,
+.role {
+     color: #000;
+     font-family: Montserrat;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+     letter-spacing: 0.87px;
+     margin: 0;
+}
+
+.otherdata .lab p {
+     width: fit-content;
+     padding-right: 30px;
+}
+
+.otherdata .lab,
+.data {
+     position: relative;
+     width: fit-content;
+     margin: 0;
+}
+
+.otherdata .data {
+     margin: 10px 0px 0px 20px;
+}
+
+.otherdata .metadata {
+     margin: 0px;
+}
+
+.role {
+     margin: 0px 0px 40px 0px;
+}
+
+
+.otherdata>div {
+     margin-bottom: 5%;
+     width: fit-content;
+}
+
+
+.otherdata div p {
+     width: 800px;
+}
+
+.otherdata .div_role {
+     position: relative;
+     width: fit-content;
+}
+
+.otherdata .div_role p {
+     width: fit-content;
+     padding-right: 30px;
+}
+
+.addingskill,
+.addinglanguage {
+     background-color: #796ACD;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     overflow: hidden;
+     z-index: 1;
+     margin-bottom: 0px;
+}
+
+.edit {
+     background-color: #796ACD;
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     width: 20px;
+     height: 20px;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     overflow: hidden;
+     z-index: 1;
+}
+
+.edit img,
+.addicon {
+     width: 50%;
+     height: auto;
+     cursor: pointer;
+}
+
+
+
+.landata {
+     border-radius: 5px;
+     border: 1px solid rgba(0, 0, 0, 0.18);
+     padding: 5px 30px;
+     margin: 20px 0px 10px 0px;
+     display: flex;
+     align-items: center;
+     width: fit-content;
+     justify-content: space-between;
+     width: 100%
+}
+
+.landata>div {
+     width: fit-content;
+     padding-right: 30px;
+     margin-right: 30px;
+     border-right: 1.5px solid rgba(0, 0, 0, 0.18);
+}
+
+.landata>button {
+     border-radius: 5px;
+     background: #F00;
+     color: white;
+     padding: 5px 10px;
+     border: 2px solid rgba(255, 255, 255, 0);
+     max-width: 80px;
+}
+
+.landata>button:hover {
+     color: #F00;
+     border: 2px solid #F00;
+     background-color: rgba(255, 255, 255, 0);
+}
+
+
+.div_language {
+     width: fit-content;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-left: 50px;
+}
+
+.addinglanguage {
+     margin-top: 10px;
+}
+
+
+.ctn5 > .btn > button {
+     display: inline-flex;
+     color: white;
+     padding: 12px 0px;
+     justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+     background: #796ACD;
+     border: 2px solid white;
+     font-family: Montserrat;
+     font-size: 12px;
+     font-weight: 500;
+     line-height: normal;
+     cursor: pointer;
+     transition: 0.3s;
+     width: 20%;
+     margin-top: 20px;
+
+}
+
+.ctn5 > .btn {
+     width: 100%;
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+}

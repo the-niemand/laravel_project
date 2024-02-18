@@ -1,0 +1,120 @@
+* {
+     color: #000;
+     font-family: Montserrat;
+     font-style: normal;
+     line-height: normal;
+     margin: 0px;
+     padding: 0px;
+}
+
+.body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.bodyforload {
+     position: absolute;
+     top: 45%;
+     left: 47%;
+}
+
+
+.this_section {
+     display: flex;
+     flex-direction: column;
+     width: 70%;
+     gap: 2em;
+     padding: 5em;
+}
+
+
+.this_section .job_posted1 {
+     width: 100%;
+     height: 100px;
+     border: 2px solid #796ACD;
+     border-radius: 3px;
+     overflow: hidden;
+     display: flex;
+     flex-direction: row;
+}
+
+.many_proposals {
+     width: 15%;
+     height: 100%;
+     background-color: #796acdb0;
+     display: flex;
+     justify-content: center;
+     cursor: pointer;
+     align-items: center;
+     transition: all 0.3s;
+}
+
+.many_proposals:hover {
+     background-color: #796ACD;
+}
+
+.many_proposals p {
+     color: #FFF;
+     margin: 0;
+     font-family: Montserrat;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     letter-spacing: 0.3px;
+
+}
+
+
+
+.this_section .job_posted1 .posted_job{
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     gap: 1em;
+     justify-content: center;
+     width: 85%;
+     cursor: pointer;
+     transition: all 0.3s;
+     padding-left: 1.5em;
+}
+
+.this_section .job_posted1 .posted_job:hover{
+background-color: #796acd2d;
+}
+
+.posted_job .jobTitle{
+     margin: 0px;
+     color: #796acd ;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 550;
+}
+
+.date_location{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 8em;
+}
+
+.publishedDate , .country{
+     color: #796acd ;
+     margin: 0px;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 550;
+}
+
+
+.date_location > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.date_location > div img{
+    width: 15px;
+}

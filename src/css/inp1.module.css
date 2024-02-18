@@ -1,0 +1,135 @@
+.ctn1 {
+  padding: 62px 79px;
+  display: grid;
+  grid-template-rows: auto;
+  gap: 40px;
+}
+
+.ctn1 .selections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ctn1 .selections .div {
+  width: 200px;
+  height: 120px;
+  border-radius: 9px;
+  background: rgba(121, 106, 205, 0.63);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px solid rgba(121, 106, 205, 0);
+  margin: 0px 20px;
+  transition: 0.5s;
+  /* Apply transition only on border change */
+}
+
+.ctn1 .selections .div p {
+  color: rgba(255, 255, 255, 0.38);
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-bottom: 5px;
+}
+
+.ctn1 .selections .div img {
+  width: auto;
+  height: 80px;
+  opacity: 0.433;
+  transition: 0.5s ;
+  margin-bottom: 0px;
+}
+
+.ctn1 .selections .div:hover {
+  border: 2px solid rgba(121, 106, 205, 0.63);
+}
+
+.ctn1 .selections .div:active img {
+  width: auto;
+  height: 95px;
+  opacity: 1;
+  margin-bottom: 0px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 550;
+}
+
+.ctn1 .selections .div:active p {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 550;
+}
+
+.ctn1 .selections .div:active {
+  border: 3px solid rgba(121, 106, 205, 1);
+}
+
+.ctn1 .selections .div:hover img {
+  width: auto;
+  height: 95px;
+  opacity: 1;
+  margin-bottom: -10px;
+}
+
+.ctn1 .selections .div:hover p {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 550;
+}
+
+.ctn1 .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ctn1 .btn p {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.55px;
+}
+
+a {
+  color: #000;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.ctn1 .btn button {
+  padding: 10px 0px;
+  width: 50%;
+  display: inline-flex;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #796ACD;
+  border: 2px solid white;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 20px 0 5px 0;
+  /* Adjusted margin for better spacing */
+}
+.ctn1 .btn button:hover {
+  background: white;
+  border: 2px solid #796ACD;
+  color: #796ACD;
+
+}

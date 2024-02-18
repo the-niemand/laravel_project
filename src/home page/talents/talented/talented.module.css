@@ -1,0 +1,68 @@
+* {
+     color: #000;
+     font-family: Montserrat;
+     font-style: normal;
+     line-height: normal;
+     margin: 0px;
+     padding: 0px;
+}
+
+.body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+p{
+     margin: 0px;
+}
+
+.bodyforload {
+     position: absolute;
+     top: 45%;
+     left: 47%;
+}
+
+
+section {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 5%;
+}
+
+section .jobcontainer {
+     border: 2px solid #796ACD;
+     border-style: dashed;
+     border-radius: 5px;
+     width: 60%;
+     padding: 3em;
+     display: flex;
+     flex-direction: column;
+     gap: 2em;
+}
+
+
+.photo_div {
+     width: 10em;
+     height: 10em;
+     border-radius: 50%;
+     overflow: hidden;
+}
+
+.photo_div img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+
+.back_btn{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+}
+.back_btn button{
+     width: fit-content;
+     padding: 0.3em 2em;
+}

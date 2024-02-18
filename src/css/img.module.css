@@ -1,0 +1,101 @@
+.ctn4 {
+     padding: 70px 300px 120px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+     position: relative;
+}
+
+.photo {
+     position: relative;
+     width: 150px;
+     height: 150px;
+     flex-shrink: 0;
+     background-image: url("../imgs/Group%2027.png");
+     background-size: cover;
+     background-position: center;
+     margin-bottom: 30px;
+     border-radius: 50%;
+}
+
+.add {
+     position: absolute;
+     bottom: 5px;
+     right: 5px;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     background-color: #796ACD;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     overflow: hidden;
+     z-index: 1;
+}
+
+.add img {
+     width: 60%;
+     height: auto;
+     cursor: pointer;
+     z-index: 100;
+}
+
+.add input {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+     cursor: pointer;
+}
+
+.previewButton{
+     position: absolute;
+     bottom: 30px;
+     right: 30px;
+     width: 30%;
+     display: inline-flex;
+     color: white;
+     padding: 12px 0px;
+     justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+     background: #796ACD;
+     border: 2px solid white;
+     font-family: Montserrat;
+     font-size: 12px;
+     font-weight: 500;
+     line-height: normal;
+     margin-bottom: 10px;
+     cursor: pointer;
+     transition: 0.3s;
+}
+
+
+.previewButton:hover {
+     background: white;
+     border: 2px solid #796ACD;
+     color: #796ACD;
+}
+
+
+
+.addButton{
+     background: white;
+     border: 2px solid #796ACD;
+     border-radius: 5px;
+     color: #796ACD;
+     padding: 10px 20px;
+     font-family: Montserrat;
+     font-size: 12px;
+     font-weight: 500;
+     cursor: pointer;
+}
+
+.addButton:hover{
+     background: #796ACD;
+     border: 2px solid white;
+     color: white;
+}

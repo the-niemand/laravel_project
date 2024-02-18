@@ -1,0 +1,118 @@
+footer {
+     display: flex;
+     padding: 65px 0 35px 0px;
+     background: rgba(121, 106, 205, 0.63);
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+}
+
+.row{
+     display: flex;
+     width: 100%;
+     gap: 2em;
+     justify-content: center;
+     
+}
+
+.footerlinks h5 {
+     font-size: 16px;
+     font-weight: 500;
+     margin-bottom: 14px;
+}
+
+.footerlinks p {
+     font-size: 14px;
+     font-weight: 400;
+     margin-bottom: 16px;
+}
+
+.footerlinks a {
+     color: #000;
+     text-decoration: none;
+}
+
+.footercard {
+     width: 255px;
+     border-radius: 14px;
+     background: rgba(255, 255, 255, 0.10);
+     border: 1px solid rgba(255, 255, 255);
+     padding: 16px;
+     margin-left: auto;
+}
+
+.footercardtitle {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 16px;
+}
+
+.carditems h3 {
+     font-size: 12px;
+     font-weight: 500;
+     margin-bottom: 0;
+}
+
+.carditems p {
+     font-size: 10px;
+     font-weight: 400;
+     margin-bottom: 0;
+}
+
+.carditems1 img {
+     width: 88px;
+}
+
+.cardtext {
+     font-size: 13px;
+     font-weight: 400;
+     margin-bottom: 0;
+}
+
+.footer2 {
+     padding-top: 35px;
+     margin-top: 72px;
+     border-top: 1px solid rgba(255, 255, 255, 0.32);
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.footerlogo {
+     display: flex;
+     align-items: center;
+}
+
+.footerlogo img {
+     width: 88px;
+     margin-right: 8px;
+}
+
+.footerlogo p {
+     margin-bottom: 0;
+     font-size: 14px;
+     font-weight: 600;
+}
+
+.footersocial {
+     display: flex;
+     align-items: center;
+}
+
+.socialicons {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 35px;
+     height: 35px;
+     border-radius: 50%;
+     margin-left: 14px;
+     background: rgba(255, 255, 255, 0.10);
+     border: 1px solid rgba(255, 255, 255, 0.24);
+     cursor: pointer;
+}
+
+.socialicons img {
+     width: 17px;
+}

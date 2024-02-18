@@ -1,0 +1,157 @@
+* {
+     color: #000;
+     font-family: Montserrat;
+     font-style: normal;
+     line-height: normal;
+     margin: 0px;
+     padding: 0px;
+}
+
+.body {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.bodyforload {
+     position: absolute;
+     top: 45%;
+     left: 47%;
+}
+
+section {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 5%;
+}
+
+section .jobcontainer {
+     border: 2px solid #796ACD;
+     border-style: dashed;
+     border-radius: 5px;
+     width: 60%;
+     padding: 3em;
+}
+
+section .jobcontainer p {
+     color: #796ACD;
+     margin: 0px 0px 20px 0px;
+}
+
+
+section .jobcontainer .created_at {
+     font-family: Montserrat;
+     font-size: 10px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 16.915px;
+     letter-spacing: 0.562px;
+}
+
+section .jobcontainer .Title {
+     font-family: Montserrat;
+     font-size: 19px;
+     font-style: normal;
+     font-weight: 650;
+     line-height: 16.915px;
+     letter-spacing: 0.562px;
+}
+
+section .jobcontainer .Description {
+     font-family: Montserrat;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 16.915px;
+     letter-spacing: 0.6px;
+}
+
+.skills_needed {
+     margin: 0px 0px 20px 0px;
+     display: flex;
+     gap: 1em;
+}
+
+.skills_needed .skillsElm {
+     background-color: #796ACD;
+     color: white;
+     border-radius: 3px;
+     padding: 5px 10px;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 16.915px;
+     letter-spacing: 0.6px;
+}
+
+
+.lbtn {
+     width: 100%;
+     display: flex;
+     justify-content: flex-end;
+}
+
+.lbtn .apply {
+     width: fit-content;
+}
+
+
+.proposal_input {
+     width: 100%;
+     margin: 0px 0px 20px 0px;
+     padding: 3%;
+     resize: none;
+     box-sizing: border-box;
+     border: 2px solid #796acd8e;
+     color: #796ACD;
+     border-radius: 4px;
+     background-color: #f8f8f8;
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: 16.915px;
+     letter-spacing: 0.6px;
+}
+.proposal_input:focus {
+     outline: none;
+     border: 2px solid #796ACD;
+}
+
+.proposal_input::placeholder{
+     font-size: 13px;
+     font-style: normal;
+     font-weight: 500;
+     color: #796acd8e;
+}
+
+
+.addfile{
+     width: 100%;
+     height: fit-content;
+     border: 2px solid #796acd8e;
+     color: #796ACD;
+     border-radius: 4px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin: 0px 0px 20px 0px;
+}
+
+.addfile .paperimg{
+     width: 100%;
+     display: flex;
+     justify-content: flex-end;
+}
+
+.addfile img{
+     width: 25px;
+     height: 25px ;
+     margin: 10px;
+     opacity: 0.6;
+     cursor: pointer;
+     transition: all 0.3s;
+}
+.addfile img:hover{
+     opacity: 1;
+}
